@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: birth-chart-api
+    env: python
+    buildCommand: ""
+    startCommand: python app.py
